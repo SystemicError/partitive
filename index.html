@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">-->
+    <title>Partitive Demo</title>
+  </head>
+  <body style="background-color:#9C9C9C">
+
+    <div id="draw-div" align="center">
+      <canvas id="draw" width="800" height="600" style="border:1px solid #000000;"></canvas><br>
+      <p>Resolution:</p>
+      <input type="range" min="1" max="100" value="1" id="resolution">
+    </div>
+    <div id="channels-div" align="center">
+      <p>Channels</p>
+      <input type="range" min="0" max="255" value="100" id="red">
+      <input type="range" min="0" max="255" value="100" id="green">
+      <input type="range" min="0" max="255" value="100" id="blue">
+    </div>
+    <script src="out/main.js" type="text/javascript"></script>
+  </body>
+</html>
